@@ -80,7 +80,7 @@ The total tractive effort must overcome the resistance from the rear wheels and 
 
 **Course:** Modelling and Simulation of Dynamic Systems  
 **Project:** AGV for Material Handling
-**Instructor:** Lobna Abo Serre
+ **Instructor:** Lobna Abo Serre
 
 ## Tools
 
