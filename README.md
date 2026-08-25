@@ -27,7 +27,42 @@ The model considers the main forces and moments affecting the vehicle's forward 
 
 ### System Schematics & Equations of Motion
 
-\cases{R\index{4}=\frac{W\index{cart}|4}\power{}||F\index{4}= I\index{4}\frac{a|r\power-index{2|4}} + 𝜇\index{rr4} R\index{4}||F\index{3}=m\index{cart} a +4F\index{4}||R\index{2}= \frac{F\index{3} y + W\index{agv} x|2L}||R\index{1}= W\index{agv} - 2R\index{2}||F\index{2}= I\index{2} \frac{a|r\power-index{2|2}} + 𝜇\index{rr2} R\index{2}||F\index{1}= m\index{agv} a +2F\index{2} + F\index{3}||I\index{2} =I\index{4} =\frac{1|2} m\index{wheel} r\power-index{wheel|2}}
+The main equations used in the mathematical model are:
+
+$$
+R_4 = \frac{W_{cart}}{4}
+$$
+
+$$
+F_4 = I_4\frac{a}{r_4^2} + \mu_{rr4}R_4
+$$
+
+$$
+F_3 = m_{cart}a + 4F_4
+$$
+
+$$
+R_2 = \frac{F_3y + W_{agv}x}{2L}
+$$
+
+$$
+R_1 = W_{agv} - 2R_2
+$$
+
+$$
+F_2 = I_2\frac{a}{r_2^2} + \mu_{rr2}R_2
+$$
+
+$$
+F_1 = m_{agv}a + 2F_2 + F_3
+$$
+
+The wheel rotational inertias are defined as:
+
+$$
+I_2 = I_4 =
+\frac{1}{2}m_{wheel}r_{wheel}^2
+$$
 
 ### Rolling Resistance
 
